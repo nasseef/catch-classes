@@ -49,5 +49,5 @@ bool operator ==(const Rectangle &r1, const Rectangle &r2) {
     return false;
 }
 double Rectangle::area() {
-    return length * width + 1;
+    return length * width;
 }
