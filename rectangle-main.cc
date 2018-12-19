@@ -19,6 +19,7 @@ int main() {
 
     Rectangle r1;//r1 is the object
     Rectangle r2;
+    
     Rectangle all[10];
     for (size_t i = 0; i < 10; i++) {
         cout << all[i] << endl;
