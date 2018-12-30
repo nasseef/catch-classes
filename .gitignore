@@ -1,6 +1,12 @@
 # settings
 *.json
 
+#cmake files
+CMakeFiles
+CMakeCache.txt
+cmake_install_cmake
+_build
+
 #debug information
 *.dSYM
 # Prerequisites
