@@ -1,3 +1,6 @@
+# Created by: Nasseef Abukamail
+# This Makefile will run tests for the Rectangle class
+#
 #Variables
 CFLAGS = -Wall -std=c++11
 
