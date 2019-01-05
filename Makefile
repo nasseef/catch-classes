@@ -1,5 +1,7 @@
 # Created by: Nasseef Abukamail
 # This Makefile will run tests for the Rectangle class
+# The tests will run automatically on Travis-CI. 
+# This is to test continuous integration (CI).
 #
 #Variables
 CFLAGS = -Wall -std=c++11
