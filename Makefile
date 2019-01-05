@@ -6,9 +6,14 @@
 #Variables
 CFLAGS = -Wall -std=c++11
 
-#Linking all the files
-a.out: rectangle.h rectangle.o Test-rectangle.cc
-	g++ $(CFLAGS) Test-rectangle.cc rectangle.o -o a.out
+# Linking all the files and run the tests. Use your own header and 
+# object files.
+
+run_tests: rectangle.h rectangle.o Test-cases.cc
+	g++ $(CFLAGS) Test-cases.cc rectangle.o -o run_tests && ./run_tests
 
 rectangle.o: rectangle.cc rectangle.h
 	g++ -c $(CFLAGS) rectangle.cc
+
+clean:
+	rm -rf *.o run_tests
