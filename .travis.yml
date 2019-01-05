@@ -4,4 +4,4 @@ notifications:
   email: false
   
 script:
-- make && ./a.out
+- make run_tests

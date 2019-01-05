@@ -1,11 +1,13 @@
 # settings
 *.json
 
+# CI 
+run_tests
+
 #cmake files
 CMakeFiles
 CMakeCache.txt
 cmake_install_cmake
-_build
 
 #debug information
 *.dSYM
