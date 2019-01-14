@@ -2,7 +2,7 @@
  * Unit testing for the Rectangle class
  */
 //#define CATCH_CONFIG_RUNNER
-#define CATCH_CONFIG_MAIN       //Catch supplies a main program 
+#define CATCH_CONFIG_MAIN       //Catch supplies a main program
 #include "catch.hpp"
 #include "rectangle.h"
 
