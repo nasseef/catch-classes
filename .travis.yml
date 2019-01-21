@@ -1,7 +1,13 @@
 language: cpp
-compiler: gcc
+language: cpp
+compiler:
+  - gcc
+
+os:
+  - linux
+
 notifications:
   email: false
-  
+
 script:
 - make run_tests
