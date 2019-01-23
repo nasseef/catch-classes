@@ -1,3 +1,11 @@
+/*
+ *        File: rectangle.cc
+ *      Author: Nasseef Abukamail
+ *        Date: January 19, 2019
+ * Description: Implementation file for the Rectangle classs.
+ * Requires "rectangle.h"
+ */
+
 #include <iostream>
 #include "rectangle.h"
 

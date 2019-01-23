@@ -1,3 +1,10 @@
+/*
+ *        File: rectangle.h
+ *      Author: Nasseef Abukamail
+ *        Date: January 19, 2019
+ * Description: Header for the Rectangle class.
+ */
+
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 #include <fstream>

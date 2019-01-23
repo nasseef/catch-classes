@@ -1,6 +1,6 @@
 /*
  *      Author: Nasseef Abukamail
- *   Date: 2017-11-15
+ *   Date: 1/19/2019
  * Description: test the rectangle class
  */
 
@@ -19,7 +19,7 @@ int main() {
 
     Rectangle r1;//r1 is the object
     Rectangle r2;
-    
+
     Rectangle all[10];
     for (size_t i = 0; i < 10; i++) {
         cout << all[i] << endl;
