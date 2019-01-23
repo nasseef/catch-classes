@@ -21,7 +21,7 @@ rectangle_main.o: rectangle_main.cc rectangle.h
 
 ######################################### R U N   T E S T s ##################################################
 run_tests: rectangle.h rectangle.o
-	$(CC) $(CFLAGS) _TEST/TEST_cases.cc _TEST/rectangle.o -o _TEST/run_tests && ./_TEST/run_tests -s
+	$(CC) $(CFLAGS) _TEST/TEST_cases.cc _TEST/rectangle.o -o _TEST/run_tests && ./_TEST/run_tests -sr compact
 ##############################################################################################################
 
 clean:
