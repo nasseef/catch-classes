@@ -1,5 +1,5 @@
 /*
- * Unit testing for the Rectangle class
+ * Unit testing for the Rectangle class (Used to explore catch2 testing library)
  */
 //#define CATCH_CONFIG_RUNNER
 #define CATCH_CONFIG_MAIN  // Catch supplies a main program
